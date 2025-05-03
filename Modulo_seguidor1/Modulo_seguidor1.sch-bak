@@ -1,0 +1,129 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8000 6900 0    157  ~ 0
+MODULO LDR
+$Comp
+L Connector_Generic:Conn_01x03 P1
+U 1 1 6133D01A
+P 6400 2600
+F 0 "P1" H 6318 2367 50  0000 C CNN
+F 1 "Conn_01x03" H 6318 2826 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 6400 2600 50  0001 C CNN
+F 3 "~" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61761E1D
+P 5150 2300
+F 0 "R1" H 5220 2346 50  0000 L CNN
+F 1 "180" H 5220 2255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5080 2300 50  0001 C CNN
+F 3 "~" H 5150 2300 50  0001 C CNN
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2450 5150 2650
+Wire Wire Line
+	5150 2650 5200 2650
+$Comp
+L power:GND #PWR0101
+U 1 1 61764157
+P 5150 3000
+F 0 "#PWR0101" H 5150 2750 50  0001 C CNN
+F 1 "GND" H 5155 2827 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3000 5150 2850
+Wire Wire Line
+	5150 2850 5200 2850
+$Comp
+L power:GND #PWR0102
+U 1 1 6176459F
+P 5850 3000
+F 0 "#PWR0102" H 5850 2750 50  0001 C CNN
+F 1 "GND" H 5855 2827 50  0000 C CNN
+F 2 "" H 5850 3000 50  0001 C CNN
+F 3 "" H 5850 3000 50  0001 C CNN
+	1    5850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2850 5850 2850
+Wire Wire Line
+	5850 2850 5850 3000
+$Comp
+L Device:R R2
+U 1 1 61764CB8
+P 5850 2300
+F 0 "R2" H 5920 2346 50  0000 L CNN
+F 1 "10K" H 5920 2255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5780 2300 50  0001 C CNN
+F 3 "~" H 5850 2300 50  0001 C CNN
+	1    5850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2650 5850 2650
+Wire Wire Line
+	5850 2650 5850 2500
+Wire Wire Line
+	5150 2050 5150 2150
+Wire Wire Line
+	5850 2150 5850 2050
+Wire Wire Line
+	5850 2050 5150 2050
+Wire Wire Line
+	6200 2500 5850 2500
+Connection ~ 5850 2500
+Wire Wire Line
+	5850 2500 5850 2450
+Wire Wire Line
+	6200 2600 6100 2600
+Wire Wire Line
+	6100 2600 6100 2050
+Wire Wire Line
+	6100 2050 5850 2050
+Connection ~ 5850 2050
+Wire Wire Line
+	6200 2700 6100 2700
+Wire Wire Line
+	6100 2700 6100 2850
+Wire Wire Line
+	6100 2850 5850 2850
+Connection ~ 5850 2850
+$Comp
+L TCRT5000:TCRT5000 U1
+U 1 1 6175CD1D
+P 5500 2750
+F 0 "U1" H 5500 3115 50  0000 C CNN
+F 1 "TCRT5000" H 5500 3024 50  0000 C CNN
+F 2 "OPTO_TCRT5000" H 5500 2750 50  0001 L BNN
+F 3 "" H 5500 2750 50  0001 L BNN
+F 4 "1.7" H 5500 2750 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer recommendations" H 5500 2750 50  0001 L BNN "STANDARD"
+F 6 "7.2mm" H 5500 2750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Vishay" H 5500 2750 50  0001 L BNN "MANUFACTURER"
+	1    5500 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

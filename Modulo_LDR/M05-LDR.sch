@@ -1,0 +1,88 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8000 6900 0    157  ~ 0
+MODULO LDR
+Connection ~ 5700 3950
+Wire Wire Line
+	5350 4050 5450 4050
+Wire Wire Line
+	5450 4050 5450 3300
+Wire Wire Line
+	5450 3300 5700 3300
+Wire Wire Line
+	5450 4650 5700 4650
+Wire Wire Line
+	5700 3950 5700 4250
+Wire Wire Line
+	5700 4650 5700 4550
+Wire Wire Line
+	5350 4150 5450 4150
+Wire Wire Line
+	5450 4150 5450 4650
+Wire Wire Line
+	5350 3950 5700 3950
+$Comp
+L Device:R R1
+U 1 1 613389FF
+P 5700 4400
+F 0 "R1" H 5770 4446 50  0000 L CNN
+F 1 "10K" H 5770 4355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5630 4400 50  0001 C CNN
+F 3 "~" H 5700 4400 50  0001 C CNN
+	1    5700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6133927E
+P 5700 4800
+F 0 "#PWR0101" H 5700 4550 50  0001 C CNN
+F 1 "GND" H 5705 4627 50  0000 C CNN
+F 2 "" H 5700 4800 50  0001 C CNN
+F 3 "" H 5700 4800 50  0001 C CNN
+	1    5700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4650 5700 4800
+Connection ~ 5700 4650
+$Comp
+L Connector_Generic:Conn_01x03 P1
+U 1 1 6133D01A
+P 5150 4050
+F 0 "P1" H 5068 3817 50  0000 C CNN
+F 1 "Conn_01x03" H 5068 4276 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Sensor_Optical:LDR03 R2
+U 1 1 61346313
+P 5700 3600
+F 0 "R2" H 5770 3646 50  0000 L CNN
+F 1 "LDR03" H 5770 3555 50  0000 L CNN
+F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 5875 3600 50  0001 C CNN
+F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 5700 3550 50  0001 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3300 5700 3450
+Wire Wire Line
+	5700 3750 5700 3950
+$EndSCHEMATC
