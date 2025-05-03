@@ -6,4 +6,4 @@ El nombre 20-20 se debe a que las placas están diseñadas para montarse sobre p
 
 Los diseños están realizados con la idea de ser fabricados por métodos caseros y de bajo costo.
 
-!(![Algunos módulos y un soporte](images/modulos2020.jpg)
+!([Algunos módulos y un soporte](images/modulos2020.jpg)
