@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Modulo_1_led_10mm-rescue)(type Legacy)(uri ${KIPRJMOD}/Modulo_1_led_10mm-rescue.lib)(options "")(descr ""))
+)
