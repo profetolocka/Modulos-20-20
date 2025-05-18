@@ -38,9 +38,6 @@ Este proyecto está pensado para:
 - Estudiantes de nivel medio o inicial en electrónica.
 - Makers y entusiastas que busquen una base modular para prototipado.
 
-## 📷 Imágenes y ejemplos
-
-Próximamente se incluirán fotografías de los módulos armados y ejemplos de uso en proyectos educativos.
 
 ## 📄 Licencia
 
